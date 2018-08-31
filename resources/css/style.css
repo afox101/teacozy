@@ -26,8 +26,6 @@ header {
   width: 100%;
   padding: 0px;
   margin-top: 0px;
-
-
 }
 
 .logo {
@@ -42,7 +40,6 @@ nav {
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
-
 }
 
 #mission {
@@ -53,7 +50,6 @@ nav {
   width: 1200px;
   justify-content: space-around;
   align-items: center;
-
 }
 
 #store {
@@ -63,8 +59,6 @@ nav {
   text-align: center;
   width: 1200px;
   height: 700px;
-
-
 }
 
 .storeitems {
@@ -75,8 +69,6 @@ nav {
   margin: 0px 100px 0px 100px;
   width: 1000px;
   text-align: center;
-
-
 }
 
 .storeitem {
@@ -91,15 +83,13 @@ nav {
   display: flex;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .locationboxes {
-
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-    opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  opacity: 1;
   }
 
 .description {
@@ -109,7 +99,6 @@ nav {
   align-items: center;
   background-color: black;
   width: 1200px;
-
 }
 
 .contact {
@@ -121,7 +110,6 @@ nav {
   text-align: center;
   width: 1200px;
   height: 200px;
-
 }
 
 .downtown,
