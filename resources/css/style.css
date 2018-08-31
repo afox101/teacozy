@@ -11,6 +11,8 @@ body {
   opacity: 0.9;
   align-items: center;
   line-height: 1.5;
+  display: flex;
+  flex-flow: column;
 }
 
 header {
@@ -20,8 +22,8 @@ header {
   position: fixed;
   border-bottom: 1px solid seashell;
   background-color: black;
-  width: 100%;
   height: 69px;
+  width: 100%;
   padding: 0px;
   margin-top: 0px;
 
@@ -31,6 +33,8 @@ header {
 .logo {
   display: inline-block;
   margin-left: 10px;
+  margin-top: 9.5px;
+  align-items: center;
 
 }
 
@@ -41,7 +45,7 @@ nav {
 
 }
 
-.mission {
+#mission {
   display: flex;
   flex-direction: column;
   background-image: url("../images/mission.jpg");
@@ -52,7 +56,7 @@ nav {
 
 }
 
-.store {
+#store {
   display: flex;
   justify-content: center;
   flex-flow: column;
@@ -65,7 +69,7 @@ nav {
 
 .storeitems {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-flow: wrap;
   padding: 10px;
   margin: 0px 100px 0px 100px;
@@ -76,10 +80,11 @@ nav {
 }
 
 .storeitem {
-  margin: 0;
+  margin: 15px;
+  justify-content: center;
 }
 
-.locations {
+#locations {
   background-image: url("../images/table.jpg");
   width: 1200px;
   height: 500px;
@@ -87,9 +92,15 @@ nav {
   justify-content: center;
   flex-direction: column;
 
-
-
 }
+
+.locationboxes {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    opacity: 1;
+  }
 
 .description {
   display: flex;
@@ -103,17 +114,13 @@ nav {
 
 .contact {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
+  position: relative;
   justify-content: space-around;
   align-items: center;
-
-}
-
-.locationboxes {
-
-  display: flex;
-  justify-content: space-around;
-
+  text-align: center;
+  width: 1200px;
+  height: 200px;
 
 }
 
@@ -123,7 +130,12 @@ nav {
   background-color: black;
   display: inline-block;
   text-align: center;
+  line-height: 3;
+  padding: 10px;
+  width: 300px;
+}
 
 footer {
-  text-align: left;
+  width: 100%;
+  padding-left: 20px;
 }
